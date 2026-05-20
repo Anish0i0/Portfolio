@@ -1,30 +1,31 @@
+import stocky from "../assets/stocky.png";
+import airbnb from "../assets/airbnb.png";
+
 const projects = [
   {
     title: "Stock Exchange Platform",
     description:
-      "A full-stack stock exchange platform with authentication, dashboards, stock tracking, and interactive charts.",
+      "Built a full-stack stock exchange web application featuring interactive stock dashboards, analytical charts, secure authentication & authorization, and a modern responsive landing page. Developed using the MERN stack with a focus on performance, scalability, and clean UI/UX.",
 
     tech: ["React", "Node.js", "MongoDB", "Express", "Bootstrap"],
 
-    image:
-      "https://images.unsplash.com/photo-1642790106117-e829e14a795f?q=80&w=1200&auto=format&fit=crop",
+    image: stocky,
 
-    live: "#",
-    github: "#",
+    live: "https://stock-exchange-webapp.vercel.app/",
+    github: "https://github.com/Anish0i0/Stock-Exchange-Webapp.git",
   },
 
   {
-    title: "Dashboard Application",
+    title: "Airbnb clone",
     description:
-      "Modern dashboard application with secure authentication, responsive UI, and dynamic data handling.",
+      "Developed a full-stack Airbnb clone featuring property listings, user authentication, authorization, and dynamic booking functionalities. Built using Node.js, Express, MongoDB, and EJS with a focus on responsive design, secure user access, and scalable backend architecture.",
 
-    tech: ["React", "JWT", "Tailwind", "Express"],
+    tech: ["Express", "Node.js", "EJS", "Bootstrap", "MongoDB"],
 
-    image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop",
+    image: airbnb,
 
-    live: "#",
-    github: "#",
+    live: "https://airbnb-clone-project-tww2.onrender.com/listings",
+    github: "https://github.com/Anish0i0/AirBnb-Clone-.git",
   },
 ];
 
