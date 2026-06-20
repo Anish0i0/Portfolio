@@ -1,5 +1,6 @@
 import stocky from "../assets/stocky.png";
 import airbnb from "../assets/airbnb.png";
+import emiCalculator from "../assets/emi-calc.png";
 
 const projects = [
   {
