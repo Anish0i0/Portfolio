@@ -28,20 +28,6 @@ const projects = [
     live: "https://airbnb-clone-project-tww2.onrender.com/listings",
     github: "https://github.com/Anish0i0/AirBnb-Clone-.git",
   },
-
-  {
-    title: "Smart EMI Calculator",
-
-    description:
-      "Built a responsive EMI Calculator that helps users calculate monthly EMI, total interest payable, and total repayment amount for different loan types. Implemented real-time calculations, Indian currency formatting, interactive pie chart visualization, input validation, smooth scrolling to results, and a modern user-friendly interface.",
-
-    tech: ["React", "JavaScript", "CSS", "Recharts", "Vercel"],
-
-    image: emiCalculator,
-
-    live: "https://emi-calculator-eight-weld.vercel.app/",
-    github: "https://github.com/Anish0i0/EMI-calculator.git",
-  },
 ];
 
 const Projects = () => {
