@@ -1,8 +1,32 @@
 import stocky from "../assets/stocky.png";
 import airbnb from "../assets/airbnb.png";
 import emiCalculator from "../assets/emi-calc.png";
+import EDtech from "../assets/landing.png";
 
 const projects = [
+  {
+    title: "AI Study Assistant",
+
+    description:
+      "Built a full-stack AI-powered study platform that enables users to upload PDFs, generate AI summaries, chat with notes, create MCQ quizzes, and study using flashcards. Implemented secure authentication, cloud file storage, PDF text extraction, and Gemini AI integration.",
+
+    tech: [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Gemini AI",
+      "Cloudinary",
+      "JWT",
+      "Multer",
+    ],
+
+    image: EDtech,
+
+    live: "https://ed-tech-git-main-anishs-projects5.vercel.app",
+
+    github: "https://github.com/Anish0i0/EDtech",
+  },
   {
     title: "Stock Exchange Platform",
     description:
